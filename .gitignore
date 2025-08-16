@@ -1,0 +1,4 @@
+_main.py
+__pycache__/*
+wiremit.db
+.env
