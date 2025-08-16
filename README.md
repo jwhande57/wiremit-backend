@@ -2,7 +2,7 @@
 
 
 ## How to Run the API
-1. Install dependencies: `pip install fastapi uvicorn sqlalchemy requests pyjwt passlib[bcrypt] python-dotenv`
+1. Install dependencies: `pip install -r requirements.txt`
 2. Create a `.env` file with:
    ```
    FASTFOREX_API_KEY=your_fastforex_key
