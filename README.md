@@ -1,12 +1,5 @@
 # Wiremit Forex Rates Backend Service
 
-## Project Structure
-- `main.py`: FastAPI app, endpoints, and startup event.
-- `database.py`: SQLite database setup and session management.
-- `models.py`: Pydantic and SQLAlchemy models.
-- `auth.py`: Authentication logic (JWT, password hashing).
-- `rates.py`: Forex rate fetching and storage.
-- `dependencies.py`: FastAPI dependencies (DB session, auth).
 
 ## How to Run the API
 1. Install dependencies: `pip install fastapi uvicorn sqlalchemy requests pyjwt passlib[bcrypt] python-dotenv`
